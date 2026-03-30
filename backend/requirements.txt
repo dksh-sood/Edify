@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+motor
+pydantic
+python-jose[cryptography]
+httpx
+python-multipart
+python-socketio[asgi]
+playwright
+beautifulsoup4
+google-generativeai
+groq
+python-dotenv
+certifi
+pypdf

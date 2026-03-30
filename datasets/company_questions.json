@@ -1,0 +1,254 @@
+{
+  "Amazon": [
+    {
+      "question": "Tell me about a time you had to make a difficult technical tradeoff under a tight deadline.",
+      "role": "software engineer",
+      "difficulty": "medium",
+      "category": "behavioral",
+      "answer_focus": "Explain the context, tradeoff options, decision criteria, and measurable impact.",
+      "source": "company-dataset"
+    },
+    {
+      "question": "How would you design a rate limiter for a high-throughput API?",
+      "role": "software engineer",
+      "difficulty": "hard",
+      "category": "system-design",
+      "answer_focus": "Discuss algorithms, state storage, distributed consistency, and operational tradeoffs.",
+      "source": "company-dataset"
+    },
+    {
+      "question": "Describe a situation where your data assumptions were wrong. What did you do next?",
+      "role": "data scientist",
+      "difficulty": "medium",
+      "category": "behavioral",
+      "answer_focus": "Show how you validated assumptions, corrected the analysis, and communicated the change.",
+      "source": "company-dataset"
+    },
+    {
+      "question": "How would you optimize a SQL query that is timing out on a large transactional table?",
+      "role": "software engineer",
+      "difficulty": "easy",
+      "category": "technical",
+      "answer_focus": "Cover indexing, query plan analysis, joins, partitioning, and measuring improvements.",
+      "source": "company-dataset"
+    },
+    {
+      "question": "What signals would you use to decide whether a product experiment should ship globally?",
+      "role": "product manager",
+      "difficulty": "medium",
+      "category": "product",
+      "answer_focus": "Mention business metrics, guardrails, segmentation, risk management, and rollout strategy.",
+      "source": "company-dataset"
+    }
+  ],
+  "Google": [
+    {
+      "question": "Design a scalable search autocomplete service.",
+      "role": "software engineer",
+      "difficulty": "hard",
+      "category": "system-design",
+      "answer_focus": "Explain indexing, latency, ranking, caching, storage choices, and scaling strategy.",
+      "source": "company-dataset"
+    },
+    {
+      "question": "How does MapReduce work, and when is it the wrong tool?",
+      "role": "software engineer",
+      "difficulty": "medium",
+      "category": "technical",
+      "answer_focus": "Describe mapper/reducer stages, distributed computation, and workload tradeoffs.",
+      "source": "company-dataset"
+    },
+    {
+      "question": "How would you evaluate a machine learning model used for ranking or recommendations?",
+      "role": "data scientist",
+      "difficulty": "medium",
+      "category": "technical",
+      "answer_focus": "Cover offline metrics, online metrics, bias, drift, and experiment design.",
+      "source": "company-dataset"
+    },
+    {
+      "question": "Tell me about a project where you simplified a complex system for other engineers.",
+      "role": "software engineer",
+      "difficulty": "easy",
+      "category": "behavioral",
+      "answer_focus": "Highlight ambiguity, simplification choices, documentation, and team impact.",
+      "source": "company-dataset"
+    },
+    {
+      "question": "What tradeoffs would you make when choosing between consistency and availability?",
+      "role": "software engineer",
+      "difficulty": "medium",
+      "category": "technical",
+      "answer_focus": "Reference distributed systems fundamentals and concrete product scenarios.",
+      "source": "company-dataset"
+    }
+  ],
+  "Microsoft": [
+    {
+      "question": "How would you design a collaborative document editor?",
+      "role": "software engineer",
+      "difficulty": "hard",
+      "category": "system-design",
+      "answer_focus": "Discuss concurrency control, conflict resolution, presence, storage, and reliability.",
+      "source": "company-dataset"
+    },
+    {
+      "question": "Tell me about a time you improved developer productivity for your team.",
+      "role": "software engineer",
+      "difficulty": "easy",
+      "category": "behavioral",
+      "answer_focus": "Include baseline pain points, tooling or process change, adoption, and outcomes.",
+      "source": "company-dataset"
+    },
+    {
+      "question": "What is the difference between vertical and horizontal scaling, and when would you choose each?",
+      "role": "software engineer",
+      "difficulty": "easy",
+      "category": "technical",
+      "answer_focus": "Define both, mention cost/performance/reliability tradeoffs, and give examples.",
+      "source": "company-dataset"
+    },
+    {
+      "question": "How would you detect and mitigate data drift in a production model?",
+      "role": "data scientist",
+      "difficulty": "medium",
+      "category": "technical",
+      "answer_focus": "Mention monitoring, thresholds, retraining, feature validation, and stakeholder communication.",
+      "source": "company-dataset"
+    },
+    {
+      "question": "How would you prioritize platform work that has no immediate customer-facing output?",
+      "role": "product manager",
+      "difficulty": "medium",
+      "category": "product",
+      "answer_focus": "Frame the strategy in terms of leverage, risk reduction, velocity, and long-term value.",
+      "source": "company-dataset"
+    }
+  ],
+  "Meta": [
+    {
+      "question": "Design a newsfeed or timeline service for billions of users.",
+      "role": "software engineer",
+      "difficulty": "hard",
+      "category": "system-design",
+      "answer_focus": "Explain write/read patterns, fan-out strategy, ranking, storage, and abuse prevention.",
+      "source": "company-dataset"
+    },
+    {
+      "question": "Tell me about a time you moved fast but still avoided a major regression.",
+      "role": "software engineer",
+      "difficulty": "medium",
+      "category": "behavioral",
+      "answer_focus": "Show judgment, risk mitigation, testing strategy, and final result.",
+      "source": "company-dataset"
+    },
+    {
+      "question": "How would you debug a sudden drop in engagement metrics after a feature launch?",
+      "role": "product manager",
+      "difficulty": "medium",
+      "category": "product",
+      "answer_focus": "Cover metric decomposition, segmentation, logs, experiment controls, and rollback criteria.",
+      "source": "company-dataset"
+    },
+    {
+      "question": "How do you reason about eventual consistency in user-facing systems?",
+      "role": "software engineer",
+      "difficulty": "medium",
+      "category": "technical",
+      "answer_focus": "Discuss user impact, reconciliation patterns, observability, and failure handling.",
+      "source": "company-dataset"
+    },
+    {
+      "question": "How would you evaluate fairness issues in a ranking model?",
+      "role": "data scientist",
+      "difficulty": "hard",
+      "category": "technical",
+      "answer_focus": "Describe fairness metrics, subgroup analysis, interventions, and monitoring strategy.",
+      "source": "company-dataset"
+    }
+  ],
+  "Netflix": [
+    {
+      "question": "How would you architect a resilient video streaming pipeline?",
+      "role": "software engineer",
+      "difficulty": "hard",
+      "category": "system-design",
+      "answer_focus": "Discuss encoding, CDN strategy, adaptive bitrate, observability, and failure recovery.",
+      "source": "company-dataset"
+    },
+    {
+      "question": "Tell me about a time you disagreed with a senior stakeholder on a technical decision.",
+      "role": "software engineer",
+      "difficulty": "medium",
+      "category": "behavioral",
+      "answer_focus": "Show ownership, data-driven reasoning, communication, and outcome.",
+      "source": "company-dataset"
+    },
+    {
+      "question": "How would you measure recommendation quality beyond click-through rate?",
+      "role": "data scientist",
+      "difficulty": "medium",
+      "category": "technical",
+      "answer_focus": "Include retention, satisfaction, diversity, novelty, and long-term value signals.",
+      "source": "company-dataset"
+    },
+    {
+      "question": "How do you prepare a service to survive regional outages?",
+      "role": "software engineer",
+      "difficulty": "medium",
+      "category": "technical",
+      "answer_focus": "Talk about failover, data replication, runbooks, testing, and capacity planning.",
+      "source": "company-dataset"
+    },
+    {
+      "question": "How would you decide whether a platform reliability investment is worth delaying a feature?",
+      "role": "product manager",
+      "difficulty": "medium",
+      "category": "product",
+      "answer_focus": "Balance risk, customer impact, engineering bandwidth, and strategic value.",
+      "source": "company-dataset"
+    }
+  ],
+  "Uber": [
+    {
+      "question": "Design a real-time driver dispatch system.",
+      "role": "software engineer",
+      "difficulty": "hard",
+      "category": "system-design",
+      "answer_focus": "Address geospatial indexing, latency, matching, surge, and fault tolerance.",
+      "source": "company-dataset"
+    },
+    {
+      "question": "Tell me about a time you had to make a decision with incomplete information.",
+      "role": "software engineer",
+      "difficulty": "easy",
+      "category": "behavioral",
+      "answer_focus": "Show how you evaluated risk, reduced uncertainty, and learned afterward.",
+      "source": "company-dataset"
+    },
+    {
+      "question": "How would you detect anomalous marketplace behavior in ride demand data?",
+      "role": "data scientist",
+      "difficulty": "medium",
+      "category": "technical",
+      "answer_focus": "Mention baselines, seasonality, alerting, model choices, and operational response.",
+      "source": "company-dataset"
+    },
+    {
+      "question": "How would you investigate a p99 latency increase in a microservices architecture?",
+      "role": "software engineer",
+      "difficulty": "medium",
+      "category": "technical",
+      "answer_focus": "Cover tracing, bottleneck isolation, dependency mapping, and remediation sequencing.",
+      "source": "company-dataset"
+    },
+    {
+      "question": "How would you prioritize rider growth against driver supply health in a new market?",
+      "role": "product manager",
+      "difficulty": "hard",
+      "category": "product",
+      "answer_focus": "Balance marketplace liquidity, incentives, economics, regional constraints, and rollout learning.",
+      "source": "company-dataset"
+    }
+  ]
+}
